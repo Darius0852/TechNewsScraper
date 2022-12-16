@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # Set the URL to scrape
-url = 'https://www.bbc.com/news/technology'
+url = 'https://www.techcrunch.com/'
+urlNew = ['https://www.wired.com', 'https://www.futurism.com', 'https://www.gizmodo.com', 'https://www.techcrunch.com/', 'https://www.nytimes.com/section/technology']
 
 # Make a request to the website
 response = requests.get(url, timeout=100)
